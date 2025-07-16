@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Cheer Energy Top Hits Countdown</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="music-player-container">
+        <!-- Header -->
+        <header class="player-header">
+            <div class="logo-section">
+                <div class="logo-container">
+                    <img src="assets/images/logo-horizontal.png" alt="Cheer Guru Nation" class="main-logo">
+                </div>
+                <h1 class="main-title">The Big Cheer Energy Top Hits Countdown</h1>
+            </div>
+            <div class="date-info">
+                <span class="chart-date">Week of July 19, 2025</span>
+            </div>
+        </header>
+
+        <!-- Main Player Layout -->
+        <div class="main-content">
+            <!-- Left Side - Now Playing -->
+            <div class="now-playing-section">
+                <div class="current-track-info">
+                    <div class="album-artwork-large">
+                        <img id="current-album-art" src="assets/images/album1.jpg" alt="Current Album">
+                        <div class="play-overlay">
+                            <button id="main-play-btn" class="play-button-large">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="track-details">
+                        <div class="current-position">#<span id="current-rank">1</span></div>
+                        <h2 id="current-song" class="song-title">Ordinary</h2>
+                        <h3 id="current-artist" class="artist-name">Alex Warren</h3>
+                        
+                        <!-- Chart Statistics -->
+                        <div class="chart-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Last Week</span>
+                                <span id="last-week" class="stat-value">1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Peak Pos.</span>
+                                <span id="peak-pos" class="stat-value">1</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Weeks on Chart</span>
+                                <span id="weeks-chart" class="stat-value">22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Audio Controls -->
+                <div class="audio-controls">
+                    <div class="progress-section">
+                        <span id="current-time" class="time-display">0:00</span>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div id="progress-fill" class="progress-fill"></div>
+                                <div id="progress-handle" class="progress-handle"></div>
+                            </div>
+                        </div>
+                        <span id="total-time" class="time-display">3:26</span>
+                    </div>
+                    
+                    <div class="control-buttons">
+                        <button id="shuffle-btn" class="control-btn">
+                            <i class="fas fa-random"></i>
+                        </button>
+                        <button id="prev-btn" class="control-btn">
+                            <i class="fas fa-step-backward"></i>
+                        </button>
+                        <button id="play-pause-btn" class="control-btn play-pause">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button id="next-btn" class="control-btn">
+                            <i class="fas fa-step-forward"></i>
+                        </button>
+                        <button id="repeat-btn" class="control-btn">
+                            <i class="fas fa-redo"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="volume-section">
+                        <button id="volume-btn" class="control-btn">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                        <div class="volume-bar-container">
+                            <div class="volume-bar">
+                                <div id="volume-fill" class="volume-fill"></div>
+                                <div id="volume-handle" class="volume-handle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Playlist/Chart -->
+            <div class="playlist-section">
+                <div class="playlist-header">
+                    <h2 class="playlist-title">Top 10 Countdown</h2>
+                    <div class="playlist-subtitle">This Week's Biggest Hits</div>
+                </div>
+                
+                <div class="playlist-container">
+                    <div id="playlist" class="playlist">
+                        <!-- Playlist items will be dynamically generated -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden Audio Element -->
+        <audio id="audio-player" preload="metadata">
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <!-- Footer -->
+        <footer class="player-footer">
+            <div class="powered-by">
+                <span class="powered-text">Powered by</span>
+                <img src="assets/images/logo-big-cheer.png" alt="Cheer Guru Nation" class="footer-logo">
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/player.js"></script>
+</body>
+</html>
+

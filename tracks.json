@@ -1,0 +1,171 @@
+{
+  "chartInfo": {
+    "title": "The Big Cheer Energy Top Hits Countdown",
+    "subtitle": "This Week's Biggest Hits",
+    "weekOf": "July 19, 2025",
+    "description": "THE WEEK'S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES, RADIO AIRPLAY AUDIENCE IMPRESSIONS AND SALES DATA."
+  },
+  "tracks": [
+    {
+      "id": 1,
+      "title": "Ordinary",
+      "artist": "Alex Warren",
+      "duration": "3:26",
+      "albumArt": "assets/images/album1.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 1,
+        "lastWeek": 1,
+        "peakPos": 1,
+        "weeksOnChart": 22,
+        "weeksAtNo1": 6,
+        "movement": "steady"
+      }
+    },
+    {
+      "id": 2,
+      "title": "What Did I Miss?",
+      "artist": "Drake",
+      "duration": "2:43",
+      "albumArt": "assets/images/album2.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 2,
+        "lastWeek": "NEW",
+        "peakPos": 2,
+        "weeksOnChart": 1,
+        "weeksAtNo1": 0,
+        "movement": "new"
+      }
+    },
+    {
+      "id": 3,
+      "title": "What I Want",
+      "artist": "Morgan Wallen Featuring Tate McRae",
+      "duration": "3:15",
+      "albumArt": "assets/images/album3.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 3,
+        "lastWeek": 2,
+        "peakPos": 1,
+        "weeksOnChart": 8,
+        "weeksAtNo1": 2,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Just In Case",
+      "artist": "Morgan Wallen",
+      "duration": "2:58",
+      "albumArt": "assets/images/album4.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 4,
+        "lastWeek": 3,
+        "peakPos": 2,
+        "weeksOnChart": 16,
+        "weeksAtNo1": 0,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 5,
+      "title": "A Bar Song (Tipsy)",
+      "artist": "Shaboozey",
+      "duration": "3:42",
+      "albumArt": "assets/images/album5.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 5,
+        "lastWeek": 4,
+        "peakPos": 1,
+        "weeksOnChart": 65,
+        "weeksAtNo1": 8,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Golden",
+      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
+      "duration": "2:21",
+      "albumArt": "assets/images/album6.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 6,
+        "lastWeek": 23,
+        "peakPos": 6,
+        "weeksOnChart": 3,
+        "weeksAtNo1": 0,
+        "movement": "up"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Luther",
+      "artist": "Kendrick Lamar & SZA",
+      "duration": "4:12",
+      "albumArt": "assets/images/album7.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 7,
+        "lastWeek": 6,
+        "peakPos": 1,
+        "weeksOnChart": 33,
+        "weeksAtNo1": 4,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 8,
+      "title": "I'm The Problem",
+      "artist": "Morgan Wallen",
+      "duration": "3:28",
+      "albumArt": "assets/images/album8.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 8,
+        "lastWeek": 5,
+        "peakPos": 2,
+        "weeksOnChart": 23,
+        "weeksAtNo1": 0,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Lose Control",
+      "artist": "Teddy Swims",
+      "duration": "3:33",
+      "albumArt": "assets/images/album9.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 9,
+        "lastWeek": 8,
+        "peakPos": 1,
+        "weeksOnChart": 99,
+        "weeksAtNo1": 12,
+        "movement": "down"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "duration": "3:17",
+      "albumArt": "assets/images/album10.jpg",
+      "audioSrc": "",
+      "chartStats": {
+        "currentPos": 10,
+        "lastWeek": 9,
+        "peakPos": 1,
+        "weeksOnChart": 47,
+        "weeksAtNo1": 3,
+        "movement": "down"
+      }
+    }
+  ]
+}
+
