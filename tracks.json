@@ -1,171 +1,132 @@
-{
-  "chartInfo": {
-    "title": "The Big Cheer Energy Top Hits Countdown",
-    "subtitle": "This Week's Biggest Hits",
-    "weekOf": "July 19, 2025",
-    "description": "THE WEEK'S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY FROM DIGITAL MUSIC SOURCES, RADIO AIRPLAY AUDIENCE IMPRESSIONS AND SALES DATA."
-  },
-  "tracks": [
-    {
-      "id": 1,
-      "title": "Ordinary",
-      "artist": "Alex Warren",
-      "duration": "3:26",
-      "albumArt": "assets/images/album1.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 1,
-        "lastWeek": 1,
-        "peakPos": 1,
-        "weeksOnChart": 22,
-        "weeksAtNo1": 6,
-        "movement": "steady"
-      }
-    },
-    {
-      "id": 2,
-      "title": "What Did I Miss?",
-      "artist": "Drake",
-      "duration": "2:43",
-      "albumArt": "assets/images/album2.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 2,
-        "lastWeek": "NEW",
-        "peakPos": 2,
-        "weeksOnChart": 1,
-        "weeksAtNo1": 0,
-        "movement": "new"
-      }
-    },
-    {
-      "id": 3,
-      "title": "What I Want",
-      "artist": "Morgan Wallen Featuring Tate McRae",
-      "duration": "3:15",
-      "albumArt": "assets/images/album3.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 3,
-        "lastWeek": 2,
-        "peakPos": 1,
-        "weeksOnChart": 8,
-        "weeksAtNo1": 2,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 4,
-      "title": "Just In Case",
-      "artist": "Morgan Wallen",
-      "duration": "2:58",
-      "albumArt": "assets/images/album4.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 4,
-        "lastWeek": 3,
-        "peakPos": 2,
-        "weeksOnChart": 16,
-        "weeksAtNo1": 0,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 5,
-      "title": "A Bar Song (Tipsy)",
-      "artist": "Shaboozey",
-      "duration": "3:42",
-      "albumArt": "assets/images/album5.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 5,
-        "lastWeek": 4,
-        "peakPos": 1,
-        "weeksOnChart": 65,
-        "weeksAtNo1": 8,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 6,
-      "title": "Golden",
-      "artist": "HUNTR/X: EJAE, Audrey Nuna & REI AMI",
-      "duration": "2:21",
-      "albumArt": "assets/images/album6.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 6,
-        "lastWeek": 23,
-        "peakPos": 6,
-        "weeksOnChart": 3,
-        "weeksAtNo1": 0,
-        "movement": "up"
-      }
-    },
-    {
-      "id": 7,
-      "title": "Luther",
-      "artist": "Kendrick Lamar & SZA",
-      "duration": "4:12",
-      "albumArt": "assets/images/album7.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 7,
-        "lastWeek": 6,
-        "peakPos": 1,
-        "weeksOnChart": 33,
-        "weeksAtNo1": 4,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 8,
-      "title": "I'm The Problem",
-      "artist": "Morgan Wallen",
-      "duration": "3:28",
-      "albumArt": "assets/images/album8.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 8,
-        "lastWeek": 5,
-        "peakPos": 2,
-        "weeksOnChart": 23,
-        "weeksAtNo1": 0,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 9,
-      "title": "Lose Control",
-      "artist": "Teddy Swims",
-      "duration": "3:33",
-      "albumArt": "assets/images/album9.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 9,
-        "lastWeek": 8,
-        "peakPos": 1,
-        "weeksOnChart": 99,
-        "weeksAtNo1": 12,
-        "movement": "down"
-      }
-    },
-    {
-      "id": 10,
-      "title": "Die With A Smile",
-      "artist": "Lady Gaga & Bruno Mars",
-      "duration": "3:17",
-      "albumArt": "assets/images/album10.jpg",
-      "audioSrc": "",
-      "chartStats": {
-        "currentPos": 10,
-        "lastWeek": 9,
-        "peakPos": 1,
-        "weeksOnChart": 47,
-        "weeksAtNo1": 3,
-        "movement": "down"
-      }
+[
+  {
+    "title": "Ordinary",
+    "artist": "Alex Warren",
+    "audioSrc": "assets/audio/ordinary.mp3",
+    "imageSrc": "assets/images/ordinary.png",
+    "duration": "1:17",
+    "chartStats": {
+      "currentPos": 1,
+      "lastWeek": 1,
+      "peakPos": 1,
+      "weeksOnChart": 8
     }
-  ]
-}
-
+  },
+  {
+    "title": "Kendrick Mix",
+    "artist": "Kendrick Lamar",
+    "audioSrc": "assets/audio/kendrick_mix.mp3",
+    "imageSrc": "assets/images/kendrick_mix.png",
+    "duration": "1:08",
+    "chartStats": {
+      "currentPos": 2,
+      "lastWeek": 4,
+      "peakPos": 1,
+      "weeksOnChart": 12
+    }
+  },
+  {
+    "title": "Golden",
+    "artist": "Huntrex",
+    "audioSrc": "assets/audio/golden.mp3",
+    "imageSrc": "assets/images/golden.png",
+    "duration": "1:20",
+    "chartStats": {
+      "currentPos": 3,
+      "lastWeek": 7,
+      "peakPos": 3,
+      "weeksOnChart": 3
+    }
+  },
+  {
+    "title": "Just Keep Watching",
+    "artist": "Tate McRae",
+    "audioSrc": "assets/audio/just_keep_watching.mp3",
+    "imageSrc": "assets/images/just_keep_watching.png",
+    "duration": "1:10",
+    "chartStats": {
+      "currentPos": 4,
+      "lastWeek": 5,
+      "peakPos": 4,
+      "weeksOnChart": 2
+    }
+  },
+  {
+    "title": "Big Dawgs",
+    "artist": "Hanumankind x Kalmi",
+    "audioSrc": "assets/audio/big_dawgs.mp3",
+    "imageSrc": "assets/images/big_dawgs.png",
+    "duration": "1:13",
+    "chartStats": {
+      "currentPos": 5,
+      "lastWeek": 3,
+      "peakPos": 1,
+      "weeksOnChart": 6
+    }
+  },
+  {
+    "title": "Manchild",
+    "artist": "Sabrina Carpenter",
+    "audioSrc": "assets/audio/manchild.mp3",
+    "imageSrc": "assets/images/manchild.png",
+    "duration": "1:17",
+    "chartStats": {
+      "currentPos": 6,
+      "lastWeek": 8,
+      "peakPos": 6,
+      "weeksOnChart": 4
+    }
+  },
+  {
+    "title": "Luther",
+    "artist": "Kendrick Lamar & SZA",
+    "audioSrc": "assets/audio/luther.mp3",
+    "imageSrc": "assets/images/luther.png",
+    "duration": "1:13",
+    "chartStats": {
+      "currentPos": 7,
+      "lastWeek": 6,
+      "peakPos": 3,
+      "weeksOnChart": 8
+    }
+  },
+  {
+    "title": "Outside",
+    "artist": "Cardi B",
+    "audioSrc": "assets/audio/outside.mp3",
+    "imageSrc": "assets/images/outside.png",
+    "duration": "1:12",
+    "chartStats": {
+      "currentPos": 8,
+      "lastWeek": 9,
+      "peakPos": 8,
+      "weeksOnChart": 5
+    }
+  },
+  {
+    "title": "Mystical Magical",
+    "artist": "Benson Boone",
+    "audioSrc": "assets/audio/mystical_magical.mp3",
+    "imageSrc": "assets/images/mystical.png",
+    "duration": "1:13",
+    "chartStats": {
+      "currentPos": 9,
+      "lastWeek": null,
+      "peakPos": 9,
+      "weeksOnChart": 1
+    }
+  },
+  {
+    "title": "Nokia",
+    "artist": "Drake",
+    "audioSrc": "assets/audio/nokia.mp3",
+    "imageSrc": "assets/images/nokia.png",
+    "duration": "1:00",
+    "chartStats": {
+      "currentPos": 10,
+      "lastWeek": 8,
+      "peakPos": 4,
+      "weeksOnChart": 8
+    }
+  }
+]
