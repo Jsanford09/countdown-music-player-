@@ -79,7 +79,7 @@
   },
   {
     "title": "Luther",
-    "artist": "Kendrick Lamar & SZA",
+    "artist": "Kendrick Lamar and SZA",
     "audioSrc": "assets/audio/luther.mp3",
     "imageSrc": "assets/images/luther.png",
     "duration": "1:13",
@@ -111,7 +111,7 @@
     "duration": "1:13",
     "chartStats": {
       "currentPos": 9,
-      "lastWeek": null,
+      "lastWeek": "--",
       "peakPos": 9,
       "weeksOnChart": 1
     }
